@@ -84,3 +84,30 @@ test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 cargo_bench_training/benches_folder_style on  main [!] is �📦 v0.1.0 via🦀🦀 v1.82.0 took 1m31s
 ```
 
+
+- `cargo nextest run --nocapture`
+
+```bash
+$ cargo nextest run --nocapture
+    Finished `test` profile [optimized] target(s) in 0.14s
+    Starting 1 test across 1 binary
+       START             benches_folder_style tests::sigmoid_test
+
+running 1 test
+atan(pi*x/2)*2/pi    6.4 ns
+atan(x)              5.3 ns
+1/(1+exp(-x))        0.0 ns
+1/sqrt(1+x^2)        0.0 ns
+erf(sqrt(pi)*x/2)    4.2 ns
+tanh(x)             13.9 ns
+x/(1+|x|)            0.0 ns
+FastSigmoid(1): 0.7869864
+test tests::sigmoid_test ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 29.79s
+
+        PASS [  30.170s] benches_folder_style tests::sigmoid_test
+------------
+     Summary [  30.172s] 1 test run: 1 passed, 0 skipped
+
+```
