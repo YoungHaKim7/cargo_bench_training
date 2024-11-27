@@ -21,3 +21,6 @@
 inherits = "release"
 ```
 
+- `cargo test --release` exists, but it is slightly different than just enabling optimizations. For example, `debug assertions` become disabled.
+  - You can also set opt-level in the `[profile.test]` section of your `Cargo.toml`, as Viktor Dahl suggests.
+
