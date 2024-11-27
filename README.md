@@ -13,6 +13,8 @@
 
 - [외국 유튜버가 잘 설명해줌  Comparing Divan and Criterion | chris biscardi](https://youtu.be/xoq9S-IDcOE?si=rBI9Wj3bhuQ7JQA2)
 
+- cargo bench결과 분석하는 법
+  - https://bheisler.github.io/criterion.rs/book/user_guide/command_line_output.html#change
 
 # cargo test --release
 - https://stackoverflow.com/questions/29818084/can-tests-be-built-in-release-mode-using-cargo
