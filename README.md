@@ -11,6 +11,9 @@
 # Criterion.rs Documentation
 - https://bheisler.github.io/criterion.rs/book/getting_started.html
 
+- [외국 유튜버가 잘 설명해줌  Comparing Divan and Criterion | chris biscardi](https://youtu.be/xoq9S-IDcOE?si=rBI9Wj3bhuQ7JQA2)
+
+
 # cargo test --release
 - https://stackoverflow.com/questions/29818084/can-tests-be-built-in-release-mode-using-cargo
 
