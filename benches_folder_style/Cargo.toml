@@ -1,0 +1,12 @@
+[package]
+name = "benches_folder_style"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libm = "0.2.11"
+rand = "0.8.5"
+
+[[bench]]
+name = "sigmoid_fn"
+harness = false
