@@ -7,3 +7,6 @@
 # cargo benches폴더로 하는 예시
 - https://github.com/BurntSushi/rust-snappy
 - https://bencher.dev/learn/benchmarking/rust/custom-harness/
+
+# Criterion.rs Documentation
+- https://bheisler.github.io/criterion.rs/book/getting_started.html
