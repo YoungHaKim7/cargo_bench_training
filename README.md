@@ -10,3 +10,14 @@
 
 # Criterion.rs Documentation
 - https://bheisler.github.io/criterion.rs/book/getting_started.html
+
+# cargo test --release
+- https://stackoverflow.com/questions/29818084/can-tests-be-built-in-release-mode-using-cargo
+
+- `Cargo.toml` 에 추가
+
+```toml
+[profile.test]
+inherits = "release"
+```
+
